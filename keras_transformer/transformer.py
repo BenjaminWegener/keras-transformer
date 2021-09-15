@@ -74,11 +74,11 @@ def attention_builder(name,
     """
     def _attention_builder(x):
         return MultiHeadAttention(
-            head_num=head_num,
-            activation=activation,
-            history_only=history_only,
-            trainable=trainable,
-            name=name,
+            #head_num=head_num,
+            #activation=activation,
+            #history_only=history_only,
+            #trainable=trainable,
+            #name=name,
         )(x)
     return _attention_builder
 
